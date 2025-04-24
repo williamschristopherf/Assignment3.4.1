@@ -8,7 +8,7 @@ namespace Assignment3._4._1
 {
     public abstract class Beverage
     {
-        public string BevName { get; set; }
+        public required string BevName { get; set; }
         public double Price { get; set; }
         public double SizeOz { get; set; }
     }

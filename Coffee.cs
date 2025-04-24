@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Assignment3._4._1
 {
+    public enum Roast { light, medium, dark }
     public class Coffee : Beverage
     {
-        public enum Roast { light, medium, dark }
         public bool IsDecaf { get; set; }
         public Roast CRoast { get; set; }
     }
